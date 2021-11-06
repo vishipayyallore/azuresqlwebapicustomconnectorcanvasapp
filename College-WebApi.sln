@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "documentation", "documentation", "{8819250A-F552-4DCF-9AFA-DF6DCF4C5E81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{4C1B6E9E-F34C-4857-B5CB-157DBC0BF05C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{484F00FE-7D90-4124-A2F4-8C0275565B2B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "starterfiles", "starterfiles", "{60D58472-8F37-4C19-87D0-D7296ACC2E85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sqlscripts", "sqlscripts", "{73CA3F1C-EFCE-4A11-B3DF-BAB26068C9EE}"
+	ProjectSection(SolutionItems) = preProject
+		documentation\starterfiles\sqlscripts\1Insert_Professors.sql = documentation\starterfiles\sqlscripts\1Insert_Professors.sql
+		documentation\starterfiles\sqlscripts\2Insert_Students.sql = documentation\starterfiles\sqlscripts\2Insert_Students.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "databases", "databases", "{C6EB94AA-F357-4A41-A915-EBF537E16C02}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "college-datastore", "source\databases\college-datastore\college-datastore.sqlproj", "{5C26826D-B252-4C6C-9E39-AD719166D803}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C26826D-B252-4C6C-9E39-AD719166D803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C26826D-B252-4C6C-9E39-AD719166D803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C26826D-B252-4C6C-9E39-AD719166D803}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5C26826D-B252-4C6C-9E39-AD719166D803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C26826D-B252-4C6C-9E39-AD719166D803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C26826D-B252-4C6C-9E39-AD719166D803}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{484F00FE-7D90-4124-A2F4-8C0275565B2B} = {8819250A-F552-4DCF-9AFA-DF6DCF4C5E81}
+		{60D58472-8F37-4C19-87D0-D7296ACC2E85} = {8819250A-F552-4DCF-9AFA-DF6DCF4C5E81}
+		{73CA3F1C-EFCE-4A11-B3DF-BAB26068C9EE} = {60D58472-8F37-4C19-87D0-D7296ACC2E85}
+		{C6EB94AA-F357-4A41-A915-EBF537E16C02} = {4C1B6E9E-F34C-4857-B5CB-157DBC0BF05C}
+		{5C26826D-B252-4C6C-9E39-AD719166D803} = {C6EB94AA-F357-4A41-A915-EBF537E16C02}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B337B4A0-2E6F-4605-B497-E32749398539}
+	EndGlobalSection
+EndGlobal
