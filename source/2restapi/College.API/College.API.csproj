@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>b78745ef-eb3e-41b8-829a-d59217089374</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1common\College.BLL\College.BLL.csproj" />
+    <ProjectReference Include="..\..\1common\College.Core\College.Core.csproj" />
+    <ProjectReference Include="..\..\1common\College.SQLServerDAL\College.SQLServerDAL.csproj" />
+  </ItemGroup>
+
+</Project>
