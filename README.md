@@ -30,13 +30,16 @@
 
 ---
 
-## 1. Deploy SQLPROJ to Azure SQL
 
+## 1. Deploy **.sqlproj** into Azure SQL Server using VS 2022
 > 1. Discussion & Demo
 
-## 2. Deploy .NET 6 Web API to Azure App Service
+![Deploy SQL Proj To Azure | 100x100](./documentation/images/DeploySQLProjToAzure.PNG)
 
+## 2. Deploy .NET 6 Web API to Azure App Service using VS 2022
 > 1. Discussion & Demo
+
+![Deploy Web API To Azure | 100x100](./documentation/images/DeployWebAPIToAzure.PNG)
 
 ## 3. Create Custom Connector in Power Apps use .NET 6 Web API, Currency Layer API
 
