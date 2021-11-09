@@ -15,6 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sqlscripts", "sqlscripts", 
 	ProjectSection(SolutionItems) = preProject
 		documentation\starterfiles\sqlscripts\1Insert_Professors.sql = documentation\starterfiles\sqlscripts\1Insert_Professors.sql
 		documentation\starterfiles\sqlscripts\2Insert_Students.sql = documentation\starterfiles\sqlscripts\2Insert_Students.sql
+		documentation\starterfiles\sqlscripts\3Insert_Products.sql = documentation\starterfiles\sqlscripts\3Insert_Products.sql
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "databases", "databases", "{C6EB94AA-F357-4A41-A915-EBF537E16C02}"
@@ -25,13 +26,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1common", "1common", "{A3FB
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2restapi", "2restapi", "{6EE108AC-6746-4468-B25F-505E704595D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.Core", "source\1common\College.Core\College.Core.csproj", "{1CBF156B-81F7-4B01-A042-A872F687BC6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "College.Core", "source\1common\College.Core\College.Core.csproj", "{1CBF156B-81F7-4B01-A042-A872F687BC6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.SQLServerDAL", "source\1common\College.SQLServerDAL\College.SQLServerDAL.csproj", "{51BFE994-5796-4314-B67B-01D2F8ECCA80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "College.SQLServerDAL", "source\1common\College.SQLServerDAL\College.SQLServerDAL.csproj", "{51BFE994-5796-4314-B67B-01D2F8ECCA80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.BLL", "source\1common\College.BLL\College.BLL.csproj", "{B6DF834C-CC31-47AA-8FAA-A48EF4A05F53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "College.BLL", "source\1common\College.BLL\College.BLL.csproj", "{B6DF834C-CC31-47AA-8FAA-A48EF4A05F53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "College.API", "source\2restapi\College.API\College.API.csproj", "{30BBC250-A3BA-444B-A5B1-23F0F49A7244}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "College.API", "source\2restapi\College.API\College.API.csproj", "{30BBC250-A3BA-444B-A5B1-23F0F49A7244}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
