@@ -1,12 +1,12 @@
 ﻿CREATE TABLE [dbo].[Products]
 (
 	[Id] UNIQUEIDENTIFIER NOT NULL PRIMARY KEY DEFAULT newid(), 
-    [ProductId] INT NOT NULL, 
-    [ProductName] VARCHAR(50) NULL, 
-    [ProductCode] VARCHAR(50) NULL, 
-    [ReleaseDate] VARCHAR(50) NULL, 
-    [Price] NUMERIC(18, 5) NULL, 
+    [Name] VARCHAR(50) NULL, 
+    [Code] VARCHAR(50) NULL, 
+    [ReleaseDate] VARCHAR(50) NULL DEFAULT GETDATE(), 
+    [Price] NUMERIC(18, 5) NULL DEFAULT 0.0, 
     [Description] VARCHAR(50) NULL, 
-    [StarRating] NUMERIC(5, 2) NULL, 
-    [ImageUrl] VARCHAR(100) NULL
+    [IsActive] BIT NULL DEFAULT 0,
+    [Rating] NUMERIC(5, 2) NULL DEFAULT 2.5, 
+    [ImageUrl] VARCHAR(100) NULL, 
 )

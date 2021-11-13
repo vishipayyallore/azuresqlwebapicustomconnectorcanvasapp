@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,17 +10,27 @@ namespace College.Core.Entities
 {
     public class Product
     {
-    
+
+        [Key]
+        public Guid Id { get; set; }
+
+        public string Name { get; set; } = string.Empty;
+
+        public string Code { get; set; } = string.Empty;
+
+        public DateTime ReleaseDate { get; set; } = DateTime.Now;
+
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal Price { get; set; }
+
+        public string Description { get; set; } = string.Empty;
+
+        public bool IsActive { get; set; }
+
+        [Column(TypeName = "decimal(5,2)")]
+        public decimal Rating { get; set; }
+
+        public string ImageUrl { get; set; } = string.Empty;
     }
 
 }
-
-// id= "d4abad2c-8930-4856-9ce4-a8b5afe7b617",
-//                       productId= 1,
-//                       productName= "Leaf Rake",
-//                       productCode= "GDN-0011",
-//                       releaseDate= "March 19, 2021",
-//                       description= "Leaf rake with 48-inch wooden handle.",
-//                       price= 129.95,
-//                       starRating= 3.2,
-//                       imageUrl= "assets/images/products/leaf_rake.png"
