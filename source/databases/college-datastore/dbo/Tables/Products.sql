@@ -8,5 +8,5 @@
     [Description] VARCHAR(50) NULL, 
     [IsActive] BIT NULL DEFAULT 0,
     [Rating] NUMERIC(5, 2) NULL DEFAULT 2.5, 
-    [ImageUrl] VARCHAR(100) NULL, 
+    [ImageUrl] VARCHAR(100) NULL
 )
