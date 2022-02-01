@@ -359,3 +359,4 @@ source/2restapi/College.API/Properties/ServiceDependencies/app-collegeapi-001 - 
 *.refactorlog
 source/2restapi/College.API/Properties/ServiceDependencies/app-collegeapi-001 - FTP/profile.arm.json
 source/2restapi/College.API/Properties/ServiceDependencies/app-collegeapi-001 - Zip Deploy/profile.arm.json
+source/2restapi/College.API/Properties/ServiceDependencies/app-college-api-shared - Web Deploy/profile.arm.json
