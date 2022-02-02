@@ -360,3 +360,4 @@ source/2restapi/College.API/Properties/ServiceDependencies/app-collegeapi-001 - 
 source/2restapi/College.API/Properties/ServiceDependencies/app-collegeapi-001 - FTP/profile.arm.json
 source/2restapi/College.API/Properties/ServiceDependencies/app-collegeapi-001 - Zip Deploy/profile.arm.json
 source/2restapi/College.API/Properties/ServiceDependencies/app-college-api-shared - Web Deploy/profile.arm.json
+source/2restapi/College.API/Properties/ServiceDependencies/app-college-api-basic - Web Deploy/profile.arm.json
